@@ -35,6 +35,7 @@ function showRecipes(recipes){
     ).join('');
 }
 
+// Colocar informações da receita na tela
 async function getRecipesDetails(id){
     recipeDetails.innerHTML = `<p>Carregando informação da receita...</p>`
     try {
